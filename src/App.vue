@@ -24,8 +24,12 @@ body,
 html {
     height: 100%;
     width:100%;
+    overflow: hidden !important;
 }
 body {
     overflow: hidden;
+}
+.v-application {
+  max-height: 100%;
 }
 </style>
